@@ -1,1 +1,2 @@
 # Final-Project-Contact-page-
+I created a Contact page with a form for first name, last name, and phone number. The form is centered using CSS flexbox and styled for clarity. JavaScript validates the inputs, showing errors if fields are empty or phone is invalid. When valid, it shows a success message and resets the form. At the bottom, I added contact links (phone, email, social) arranged with flexbox for easy access.
