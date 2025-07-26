@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact</title>
+  <link rel="icon" href="Logo.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="css(signup+contact).css" />
+</head>
+<header> <nav class="main-nav">
+  <ul>
+    <li><a href="Home page.html">Home</a></li>
+    <li><a href="menu.html">Menu</a></li>
+    <li><a href="signup.html">Sign Up</a></li>
+    <li><a href="staff.html">Staff</a></li>
+  </ul>
+</nav>
+</header>
+<body>
+  <!-- Contact form -->
+  <form id="contactForm" novalidate>
+    <h2>Contact Us</h2>
+
+    <label for="firstName">First Name *</label>
+    <input type="text" id="firstName" name="firstName" />
+    <div class="error" id="firstNameError"></div>
+
+    <label for="lastName">Last Name *</label>
+    <input type="text" id="lastName" name="lastName" />
+    <div class="error" id="lastNameError"></div>
+
+    <label for="phone">Phone Number *</label>
+    <input type="tel" id="phone" name="phone" />
+    <div class="error" id="phoneError"></div>
+
+    <button type="submit">Send</button>
+  </form>
+  <!-- Contact links section at the bottom -->
+  <footer class="contact-links">
+    <a href="tel:+21625583914">Call Us: +216 25583914</a>
+    <a href="spoonchef24@gmail.com">Email: spoonchef24@gmail.com</a>
+    <a href="https://www.facebook.com/profile.php?id=100063757015547" target="_blank">Facebook</a>
+    <a href="https://www.instagram.com/spoon.chef/" target="_blank">Instagram</a>
+  </footer>
+
+  <script src="contact.js"></script>
+</body>
+</html>
